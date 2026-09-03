@@ -3,8 +3,8 @@ bazel_dep(name = "rules_oci", version = "2.2.2")
 oci = use_extension("@rules_oci//oci:extensions.bzl", "oci")
 oci.pull(
     name = "nginx_image",
-    digest = "sha256:287ff321f9e3cde74b600cc26197424404157a72043226cbbf07ee8304a2c720",
+    digest = "sha256:05b8cb60c354a44ab824ea6e7dc69b46d50762cdbe728a347a5b656e6fb3d7c4",
     image = "index.docker.io/library/nginx",
     platforms = ["linux/amd64"],
-    tag = "1.27.1",
+    tag = "1.31.5",
 )
