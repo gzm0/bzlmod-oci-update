@@ -2,8 +2,8 @@
 
 oci_pull(
     name = "nginx_image",
-    digest = "sha256:287ff321f9e3cde74b600cc26197424404157a72043226cbbf07ee8304a2c720",
+    digest = "sha256:a786635fd3c7b9a57ea089ab1c0713e510f3b548b65fe699ce3d59e4a926b37e",
     image = "index.docker.io/library/nginx",
     platforms = ["linux/amd64"],
-    tag = "1.27.1",
+    tag = "1.31.10",
 )
